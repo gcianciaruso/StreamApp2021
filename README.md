@@ -10,7 +10,9 @@ The beginning minimum desired functionality is to:
 
 ### Abstract Class Song
 SoundcloudSong
+
 SpotifySong
+
 .play() method
 ### Playlist Class
 List of Songs
