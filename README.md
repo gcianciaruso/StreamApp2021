@@ -32,5 +32,6 @@ Contains all *liked* songs
 ## Libraries used
 Spotify Java/Android Web API
 https://github.com/kaaes/spotify-web-api-android
+
 Soundcloud Java/Android Web API
 https://github.com/vpaliy/SoundCloud-API
