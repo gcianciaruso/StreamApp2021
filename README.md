@@ -9,6 +9,7 @@ The beginning minimum desired functionality is to:
 ## Program Structure
 #### POJOs
 Tracks: streaming_platform, track_id, track_name, artist_name, whatever other private fields
+
 *whatever else tommy had*
 #### Other Structure
 *insert after talking to mcburney*
