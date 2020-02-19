@@ -5,11 +5,11 @@ import java.util.List;
 
 public class Playlist {
 
-    private List<Song> playlist;
+    private List<Song> list;
     private String name;
 
     public Playlist(){
-        playlist=new ArrayList<Song>();
+        list=new ArrayList<Song>();
     }
 
     public Playlist(String name){
@@ -17,5 +17,23 @@ public class Playlist {
         this.name=name;
     }
 
+    /**
+     * add a song to the playlist
+     * @param song
+     */
+    public void addSong(Song song){
+        list.add(song);
+    }
 
+    public List<Song> getList() {
+        return list;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }

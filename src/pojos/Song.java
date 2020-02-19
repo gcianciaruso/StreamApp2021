@@ -1,15 +1,44 @@
 package pojos;
 
-public class Song {
+public abstract class Song {
 
-    public Artist artist;
+    protected Artist artist;
+    protected String name;
+    protected Source source;
 
-    public Song(){
 
+    public Song(String name, Artist artist){
+        this.name=name;
+        this.artist=artist;
     }
 
-    public Song(Artist artist){
+    public Song(String name, Artist artist, Source source){
         super();
-        this.artist=artist;
+        this.source=source;
+    }
+
+    /**
+     * play the song. abstract because each have a different api
+     */
+    public abstract void playSong();
+
+    public Source getSource(){
+        return source;
+    }
+
+    public Artist getArtist() {
+        return artist;
+    }
+
+    public void setArtist(Artist artist) {
+        this.artist = artist;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }
