@@ -19,4 +19,22 @@ public class SoundcloudSong extends Song {
     public void playSong() {
         //TODO: implement method
     }
+
+    /**
+     * skip forward to next song (or to specified time?)
+     */
+    @Override
+    public void skipForward() {
+        //TODO: implement method
+        //might need to be able to skip times for this if its jumping to time
+    }
+
+    /**
+     * skip backward to previous song (or to specified time?)
+     */
+    @Override
+    public void skipBackward() {
+        //TODO: implement method
+        //might need to be able to skip times for this if its jumping to time
+    }
 }
