@@ -21,15 +21,15 @@ public class LoginController extends BaseController {
     }
 
     public void loginSp(){
-        if(username_sp_text.equals("spotify") && password_sp_text.getText().equals("password")){
-            login_sp_text.setText("You have logged in to spotify");
+        if(username_sp_text.getText().equals("spotify") && password_sp_text.getText().equals("password")){
+            login_sp_text.setText("You have logged in to spotify. congratulations");
         } else{
             login_sp_text.setText("Wrong username/password");
         }
     }
 
     public void loginSc(){
-        if(username_sc_text.equals("spotify") && password_sc_text.getText().equals("password")){
+        if(username_sc_text.equals("soundcloud") && password_sc_text.getText().equals("password")){
             login_sc_text.setText("You have logged in to soundcloud");
         } else{
             login_sc_text.setText("Wrong username/password");
