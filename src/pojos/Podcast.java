@@ -2,11 +2,14 @@ package pojos;
 
 public class Podcast extends Track{
 
-    private String name;
-
     public Podcast(String name){
         super(name);
     }
+    
+    public Podcast(String name, Artist artist){super(name, artist);}
+
+    public Podcast(String name, Artist artist, Source source){super(name, artist, source);}
+
 
     /**
      * skip forward 15 seconds

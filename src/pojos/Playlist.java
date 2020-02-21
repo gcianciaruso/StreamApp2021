@@ -5,28 +5,29 @@ import java.util.List;
 
 public class Playlist {
 
-    private List<Song> list;
+    private List<Song> songs;
     private String name;
 
     public Playlist(){
-        list=new ArrayList<Song>();
+        songs=new ArrayList<Song>();
     }
 
     public Playlist(String name){
-        super();
+        this();
         this.name=name;
     }
 
     /**
      * add a song to the playlist
+     * maybe if song is already there, tell user and confirm?
      * @param song
      */
     public void addSong(Song song){
-        list.add(song);
+        songs.add(song);
     }
 
     public List<Song> getList() {
-        return list;
+        return songs;
     }
 
     public String getName() {
