@@ -18,7 +18,7 @@ public abstract class BaseController {
                     .setAll((Parent) FXMLLoader
                             .load(getClass()
                                     .getClassLoader()
-                                    .getResource("ui/fxml/"+file))); }
+                                    .getResource("fxml/"+file))); }
 
         catch(IOException e){
             e.printStackTrace();

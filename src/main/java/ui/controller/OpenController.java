@@ -13,6 +13,6 @@ public class OpenController extends BaseController {
     }
 
     public void toLoginPage(){
-        openFXMl("login.fxml");
+        openFXMl("fxml/login.fxml");
     }
 }

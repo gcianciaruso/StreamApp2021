@@ -16,7 +16,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         try {
             AnchorPane root = (AnchorPane) FXMLLoader
-                    .load(getClass().getClassLoader().getResource("ui/fxml/open.fxml"));
+                    .load(getClass().getClassLoader().getResource("fxml/open.fxml"));
             Scene scene = new Scene(root, 600, 600);
             scene.setFill(Color.TRANSPARENT);
             root.setBackground(Background.EMPTY);
