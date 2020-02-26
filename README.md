@@ -30,8 +30,8 @@ When a song is clicked to be played, gets added to top of queue1 and immediately
 Contains all *liked* songs
 
 ## Libraries used
-Spotify Java/Android Web API
-https://github.com/kaaes/spotify-web-api-android
+Spotify Python Web API
+https://github.com/plamere/spotipy
 
-Soundcloud Java/Android Web API
-https://github.com/vpaliy/SoundCloud-API
+Soundcloud Python Web API
+https://github.com/soundcloud/soundcloud-python
